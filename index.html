@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wahid Arefin - Data Scientist & Business Analytics Expert</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#3B82F6">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Wahid Portfolio">
+</head>
+<body>
+    <!-- Cursor -->
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+    
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-text">
+                <span>Loading</span>
+                <div class="loading-dots">
+                    <span>.</span>
+                    <span>.</span>
+                    <span>.</span>
+                </div>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Wahid</span>
+                <span class="logo-dot">.</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="hero-particles"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-up">
+                <h1 class="hero-title">
+                    <span class="hero-greeting">Hello, I'm</span>
+                    <span class="hero-name">Wahid Arefin</span>
+                    <span class="hero-role">Data Scientist & Business Analytics Expert</span>
+                </h1>
+                <p class="hero-description">
+                    Results-driven data analyst with expertise in Business Analytics and Development. 
+                    Skilled in Python, Machine Learning, SQL, and data visualization to drive business impact through data-driven insights.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-delay="200">
+                <div class="hero-image-container">
+                    <div class="hero-profile-picture">
+                        <div class="profile-image-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="floating-elements">
+                            <div class="floating-element python">Python</div>
+                            <div class="floating-element sql">SQL</div>
+                            <div class="floating-element ml">ML</div>
+                            <div class="floating-element tableau">Tableau</div>
+                            <div class="floating-element powerbi">Power BI</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll Down</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h3>Data Scientist & Business Analytics Expert</h3>
+                    <p>
+                        I'm a results-driven data analyst currently pursuing my Master's in Data Science at Monash University 
+                        (expected July 2026) with a Bachelor's in Business Analytics from Sunway University (February 2024). 
+                        I specialize in business analytics, predictive modeling, and data-driven decision-making.
+                    </p>
+                    <p>
+                        Currently working as a Cybersecurity & Data Operations Intern at Conatix, I'm passionate about 
+                        leveraging AI and automation to enhance efficiency and strategic decision-making. My expertise 
+                        spans Python, R, SQL, Machine Learning, and visualization tools like Tableau and Power BI.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">92.4%</span>
+                            <span class="stat-label">ML Model Accuracy</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Data Projects</span>
+                        </div>
+                    </div>
+                    <div class="about-buttons">
+                        <a href="#contact" class="btn btn-primary">Hire Me</a>
+                        <a href="https://github.com/Wahid-Islam" target="_blank" class="btn btn-secondary">View GitHub</a>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="about-image-container">
+                        <div class="about-picture">
+                            <div class="about-image-placeholder">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <div class="about-decorations">
+                            <div class="decoration-1"></div>
+                            <div class="decoration-2"></div>
+                            <div class="decoration-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technologies I work with</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-categories">
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                        <div class="category-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Programming & Analysis</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">SQL & Oracle</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">R Programming</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Java</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Stata & EViews</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                        <div class="category-header">
+                            <i class="fas fa-brain"></i>
+                            <h3>Machine Learning & Statistics</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Machine Learning</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Statistical Analysis</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Predictive Modeling</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Data Mining</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                        <div class="category-header">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Data Visualization & BI</h3>
+                        </div>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Tableau</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Power BI</span>
+                                    <span class="skill-percentage">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Excel & NodeXL</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">R Shiny</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Experience & Education</h2>
+                <p class="section-subtitle">My journey so far</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-details">
+                            <h3>Cybersecurity & Data Operations Intern</h3>
+                            <h4>Conatix</h4>
+                            <span class="timeline-date">March 2025 - Present</span>
+                            <p>
+                                Successfully implemented API security enhancements and participated in malware research. 
+                                Identified suspicious websites for threat intelligence, performed multi-VM testing, 
+                                and contributed to competitor analysis while collaborating with cross-functional teams 
+                                to enhance UI components.
+                            </p>
+                            <div class="timeline-skills">
+                                <span class="skill-tag">API Security</span>
+                                <span class="skill-tag">Malware Analysis</span>
+                                <span class="skill-tag">Data Operations</span>
+                                <span class="skill-tag">Technical Documentation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="timeline-details">
+                            <h3>HR Analyst Intern</h3>
+                            <h4>Continental Tyres Sdn Bhd.</h4>
+                            <span class="timeline-date">January 2023 - April 2023</span>
+                            <p>
+                                Conducted in-depth analysis of generational preferences for compensation and benefits, 
+                                developed tailored strategies using Power BI and Excel. Engineered automated HR analytics 
+                                metrics and managed recruitment processes including resume screening and candidate interviews.
+                            </p>
+                            <div class="timeline-skills">
+                                <span class="skill-tag">Power BI</span>
+                                <span class="skill-tag">Excel Analytics</span>
+                                <span class="skill-tag">HR Analytics</span>
+                                <span class="skill-tag">Data Analysis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-details">
+                            <h3>Master's in Data Science</h3>
+                            <h4>Monash University</h4>
+                            <span class="timeline-date">2024 - July 2026 (Expected)</span>
+                            <p>
+                                Currently pursuing advanced studies in Data Science, specializing in machine learning, 
+                                statistical analysis, and business analytics. Developing expertise in AI applications, 
+                                predictive modeling, and data-driven decision making for business impact.
+                            </p>
+                            <div class="timeline-skills">
+                                <span class="skill-tag">Machine Learning</span>
+                                <span class="skill-tag">Statistical Analysis</span>
+                                <span class="skill-tag">AI Applications</span>
+                                <span class="skill-tag">Business Analytics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="timeline-content">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-details">
+                            <h3>Bachelor's in Business Analytics</h3>
+                            <h4>Sunway University</h4>
+                            <span class="timeline-date">2020 - February 2024</span>
+                            <p>
+                                Completed comprehensive studies in Business Analytics, focusing on data analysis, 
+                                statistical methods, and business intelligence. Built strong foundation in 
+                                programming, data visualization, and analytical problem-solving.
+                            </p>
+                            <div class="timeline-skills">
+                                <span class="skill-tag">Business Intelligence</span>
+                                <span class="skill-tag">Data Analysis</span>
+                                <span class="skill-tag">Statistical Methods</span>
+                                <span class="skill-tag">Data Visualization</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my best work</p>
+            </div>
+                            <div class="projects-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="analytics">Data Analytics</button>
+                <button class="filter-btn" data-filter="visualization">Data Visualization</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="ml" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Heart Disease Risk Prediction</h3>
+                        <p class="project-description">
+                            Developed a machine learning-based cardiovascular risk prediction system achieving 92.4% accuracy 
+                            using Random Forest model. Created an interactive R Shiny web application for healthcare professionals 
+                            to perform rapid risk assessments.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Random Forest</span>
+                            <span class="tech-tag">R Shiny</span>
+                            <span class="tech-tag">CRISP-DM</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ml" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-car"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Used Cars Predictive Pricing System</h3>
+                        <p class="project-description">
+                            Designed a comprehensive system using XGBoost model for predicting and filtering used car prices 
+                            based on criteria like mileage and condition. Integrated with Python web framework for 
+                            easy user interaction and data visualization.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">XGBoost</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Data Visualization</span>
+                            <span class="tech-tag">Web Framework</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="analytics" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">HR Analytics & Generational Insights</h3>
+                        <p class="project-description">
+                            Conducted comprehensive analysis of generational preferences for compensation and benefits 
+                            at Continental Tyres. Developed automated Excel-based HR analytics metrics and created 
+                            tailored strategies using Power BI.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">HR Analytics</span>
+                            <span class="tech-tag">Statistical Analysis</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="visualization" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Cybersecurity Threat Intelligence Dashboard</h3>
+                        <p class="project-description">
+                            Developed threat intelligence data collection and analysis system at Conatix. 
+                            Created comprehensive dashboards for malware analysis, competitor benchmarking, 
+                            and security metrics visualization.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Data Collection</span>
+                            <span class="tech-tag">Threat Intelligence</span>
+                            <span class="tech-tag">Dashboard Design</span>
+                            <span class="tech-tag">Security Analytics</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="visualization" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Interactive Business Intelligence Dashboard</h3>
+                        <p class="project-description">
+                            Created comprehensive business intelligence dashboards using Tableau and Power BI 
+                            for data-driven decision making. Integrated multiple data sources with advanced 
+                            analytics and real-time reporting capabilities.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Tableau</span>
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Data Integration</span>
+                            <span class="tech-tag">KPI Metrics</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="analytics" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-image">
+                        <div class="project-image-placeholder">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                            <a href="#" class="project-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Statistical Analysis & Data Mining</h3>
+                        <p class="project-description">
+                            Comprehensive statistical analysis projects using R, Python, and SQL for data mining, 
+                            hypothesis testing, and predictive analytics. Applied advanced statistical methods 
+                            including regression analysis and clustering algorithms.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">R Programming</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Statistical Modeling</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's discuss your next data project</h3>
+                    <p>
+                        I'm always interested in new opportunities and exciting data science projects. 
+                        Whether you need predictive modeling, business analytics, or data visualization, 
+                        feel free to reach out!
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Malaysia</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>mdwahidislamarefin@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+60-163016-913</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/mdwahidislamarefin/" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/Wahid-Islam" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Md Wahid Islam Arefin. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
